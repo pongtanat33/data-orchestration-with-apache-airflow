@@ -1,8 +1,8 @@
 from airflow.sdk import DAG
-from airflow.utils import timeline
+from airflow.utils import timezone
 from airflow.providers.standard.empty import EmptyOperator
 
-with DAT(
+with DAG(
     "my_first_dag",
     start_date= timezone.daetime(2025,10,2),
     schedule = None
@@ -11,5 +11,5 @@ with DAT(
     t1 = EmptyOperator(task_id="t1")
     t2 = EmptyOperator(task_id="t2")
 
-    
+
      
