@@ -735,3 +735,256 @@
 {"timestamp":"2025-10-03T04:05:15.603638Z","level":"info","event":"task_7","logger":"task.stdout"}
 {"timestamp":"2025-10-03T04:05:15.603866Z","level":"info","event":"task_8","logger":"task.stdout"}
 {"timestamp":"2025-10-03T04:05:15.604276Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.231127Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:05:46.241075Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.241746Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.242826Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.243369Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.243500Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.243715Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.243926Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.245082Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.245242Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:05:46.243868Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:06:16.990818Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:06:16.997457Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:06:17.007416Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.008388Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.008641Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.008903Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.009125Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.009328Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.009554Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.009829Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:17.010047Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.820015Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:06:47.834756Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:06:47.842475Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.843412Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.843697Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.845736Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.845979Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.846197Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.846413Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.846635Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:06:47.846880Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.443300Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:07:18.455006Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:07:18.460118Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.460371Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.460606Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.460842Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.461066Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.461279Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.461486Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.463739Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:18.463985Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.395893Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:07:49.407268Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:07:49.416272Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.416419Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.416546Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.416665Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.418714Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.418866Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.418996Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.419116Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:07:49.419235Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.377809Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:08:20.390493Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:08:20.400794Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.401029Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.401269Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.401494Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.401750Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.401974Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.402199Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.402412Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:20.402628Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.328049Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:08:51.340491Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:08:51.349815Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.350094Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.350323Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.350549Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.350795Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.351023Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.351236Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.351432Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:08:51.351639Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:21.999862Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:09:22.009278Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:09:22.023990Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024135Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024241Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024342Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024443Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024541Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024654Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024787Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:22.024896Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.890481Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:09:52.900188Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:09:52.914766Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.915028Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.915244Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.915454Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.915651Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.915888Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.916086Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.916282Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:09:52.916489Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.564502Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:10:23.573752Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:10:23.583872Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584010Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584113Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584211Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584303Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584397Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584496Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584598Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:23.584711Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.894267Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:10:53.901642Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:10:53.917808Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.918101Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.918337Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.918559Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.918810Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.919036Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.919254Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.919468Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:10:53.919714Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.609274Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:11:24.627038Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:11:24.632760Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.632907Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.633006Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.633093Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.633182Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.633265Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.633346Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.633424Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:24.633504Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.315095Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:11:55.325798Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.326090Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.326340Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.326572Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.326809Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.337462Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:11:55.343731Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.345834Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.346448Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:11:55.346663Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:25.991426Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:12:25.998924Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:12:26.010053Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.010405Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.010627Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.012722Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.012958Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.013186Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.013411Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.013622Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:26.013878Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.726033Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:12:56.733526Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:12:56.744078Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.744322Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.746729Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.746979Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.747201Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.747424Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.747646Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.747885Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:12:56.748108Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.310462Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:13:27.318322Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:13:27.329091Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.329322Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.329544Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.329789Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.330875Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.331196Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.331412Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.331629Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:27.331873Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.884328Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:13:57.890523Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:13:57.905064Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.905285Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.905499Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.905732Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.906745Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.906994Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.907111Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.907316Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:13:57.907531Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.447321Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:14:28.456386Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:14:28.465522Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.465660Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.467947Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.468182Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.470731Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.470994Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.471236Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.471472Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:28.471723Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.038401Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:14:59.044475Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:14:59.058083Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.060453Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.060720Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.060857Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.061066Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.061290Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.061408Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.061613Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:14:59.061845Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.659517Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:15:29.674358Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:15:29.681894Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.682166Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.682396Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.682614Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.682882Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.684750Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.684985Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.685208Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:15:29.685433Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.423606Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:16:00.445144Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:16:00.473977Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.474430Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.474708Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.474936Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.475641Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.477278Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.477521Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.477815Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:00.479714Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.700036Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:16:30.733197Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}
+{"timestamp":"2025-10-03T04:16:30.753151Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.756756Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.757016Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.757237Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.758748Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.758994Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.763747Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.764016Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:16:30.764262Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.980174Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/my_first_dag.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-10-03T04:17:00.985565Z","level":"info","event":"task_1","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.985853Z","level":"info","event":"task_2","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.986079Z","level":"info","event":"task_3","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.986295Z","level":"info","event":"task_4","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.986511Z","level":"info","event":"task_5","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.990407Z","level":"info","event":"task_6","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.990655Z","level":"info","event":"task_7","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.990903Z","level":"info","event":"task_8","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.991124Z","level":"info","event":"task_9","logger":"task.stdout"}
+{"timestamp":"2025-10-03T04:17:00.987404Z","level":"warning","event":"The `airflow.utils.timezone.datetime` attribute is deprecated. Please use `'airflow.sdk.timezone.datetime'`.","category":"DeprecatedImportWarning","filename":"/opt/airflow/dags/my_first_dag.py","lineno":7,"logger":"py.warnings"}

@@ -1,7 +1,7 @@
 import datetime
 from airflow.providers.standard.operators.python import PythonOperator
 from airflow.providers.standard.operators.empty import EmptyOperator
-from airflow.providers.standard.operators.http import HttpOperator
+from airflow.providers.http.operators.http import HttpOperator
 from airflow.sdk import DAG
 
 
@@ -22,8 +22,6 @@ def _load_data_warhouse():
 
 def _generate_report():
     print("Generate Data")
-
-
 
 
 with DAG(
@@ -64,17 +62,18 @@ with DAG(
          python_callable = _generate_report
     )
 
-    task_get_op = HttpOperator(
-        task_id="get_op",
-        method="GET",
+
+    forecast = HttpOperator(
+        task_id="get_data",
+        conn_id = "http_default",
         endpoint="https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m",
-        data={"param1": "value1", "param2": "value2"},
-        headers={},
-        dag=dag,
+        method='GET',
+        headers={'Content-Type': 'application/json'},
+        log_response=True
     )
 
 
     end = EmptyOperator(task_id="end")
 
 
-    start >> [extract_api,extract_postgress,extract_google_analytics]  >> transform_clean_data >> load_to_data_warehouse  >> generate_report >> end
+    start >> [extract_api,extract_postgress,extract_google_analytics]  >> transform_clean_data >> load_to_data_warehouse  >> generate_report >> forecast >> end
