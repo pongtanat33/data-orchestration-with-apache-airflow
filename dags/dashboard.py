@@ -3,6 +3,8 @@ from airflow.providers.standard.operators.python import PythonOperator
 from airflow.providers.standard.operators.empty import EmptyOperator
 from airflow.providers.http.operators.http import HttpOperator
 from airflow.sdk import DAG
+from airflow.models import Connection
+
 
 
 def _extract_api():
@@ -63,17 +65,17 @@ with DAG(
     )
 
 
-    forecast = HttpOperator(
-        task_id="get_data",
-        conn_id = "http_default",
-        endpoint="https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m",
-        method='GET',
-        headers={'Content-Type': 'application/json'},
-        log_response=True
-    )
+    # forecast = HttpOperator(
+    #     task_id="get_data",
+    #     http_conn_id='http_default',
+    #     endpoint="https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,wind_speed_10m&hourly=temperature_2m,relative_humidity_2m,wind_speed_10m",
+    #     method='GET',
+    #     headers={'Content-Type': 'application/json'},
+    #     log_response=True
+    # )
 
 
     end = EmptyOperator(task_id="end")
 
 
-    start >> [extract_api,extract_postgress,extract_google_analytics]  >> transform_clean_data >> load_to_data_warehouse  >> generate_report >> forecast >> end
+    start >> [extract_api,extract_postgress,extract_google_analytics]  >> transform_clean_data >> load_to_data_warehouse  >> generate_report >> end
